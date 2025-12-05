@@ -9,7 +9,7 @@ CT based CEM QA : this script uses a CT of a CEM and compares to the reference f
 ## Getting started
 
 After cloning the git:
-* En the folder `resources`, unzip the file CT_air.zip
+* In the folder `resources`, unzip the file CT_air.zip
 * Add the whole folder and subfolders in the Matlab path
 * Call the script `CEMQA`, providing the 3 inputs in command line. 
 

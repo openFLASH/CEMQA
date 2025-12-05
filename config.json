@@ -1,0 +1,22 @@
+{
+ "files" : {
+  "BDL"               : "resources/BDL.txt",
+  "scanner_directory" : "resources/Scanner/",
+  "ct_air_path"       : "resources/CT_air/reggui_CT_air_0001.dcm"
+ },
+
+ "ct_scan_operations" : {
+    "PSF_FWHM"      : 0.8,
+    "maskLowThres"  : -350,
+    "maskHighThres" : 1e6
+ },
+
+ "flags": {
+    "geomGammaIndexAnalysis"  : true,
+    "geom_dd"                 : 0.5,
+    "geom_DD"                 : 1,
+    "weplGammaIndexAnalysis"  : false,
+    "wepl_dd"                 : 0.5, 
+    "wepl_DD"                 : 1
+ }
+}

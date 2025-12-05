@@ -40,3 +40,7 @@ The CEM has to be scanned following these guidelines:
 
 This software is distributed under LGPL-3.0 license. Please read about it in the tab "License".
 In short: about all uses are permitted, but all changes have to be published and documented under LGPL-3.0 as well.
+
+This software makes use of libraries from the platform REGGUI: https://gitlab.com/open5431640/REGGUI.
+
+The required dependencies are copied here as a fork from the branch openFLASH, commit a1419689b91dda57cfec83c6b8aec23df09be77a of 29 JAN 2024 : https://gitlab.com/open5431640/REGGUI/-/tree/a1419689b91dda57cfec83c6b8aec23df09be77a

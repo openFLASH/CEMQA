@@ -6,7 +6,7 @@ CT based CEM QA : this script uses a CT of a CEM and compares to the reference f
 * Matlab 
 * Image Processing toolbox
 
-## Get started
+## Getting started
 
 After cloning the git:
 * En the folder `resources`, unzip the file CT_air.zip
@@ -18,6 +18,12 @@ Example: `CEMQA('c:\data\example\CT_CEM\CT_0001.dcm', 'c:\data\example\RP.dcm', 
 ## Config
 The only config is the CT scanner. A default configuration is included (folder `resources\Scanner`).
 Please overwrite it with the configuration with the CT scanner used. 
+
+## Prerequisite
+The CEM has to be CT scanned respecting these guidelines:
+* The arrow has to point towards the head
+* The base place has to be elevated with lateral support or on a light material, for easy separation from the table
+* The lateral ridges have to be cropped out of the CT
 
 ## Inputs
 * scanCEM_path : the path to the CEM CT (path to a single file of the DICOM series; any is fine)

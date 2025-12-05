@@ -15,6 +15,10 @@ After cloning the git:
 
 Example: `CEMQA('c:\data\example\CT_CEM\CT_0001.dcm', 'c:\data\example\RP.dcm', 'c:\data\example\output\')`
 
+## Config
+The only config is the CT scanner. A default configuration is included (folder `resources\Scanner`).
+Please overwrite it with the configuration with the CT scanner used. 
+
 ## Inputs
 * scanCEM_path : the path to the CEM CT (path to a single file of the DICOM series; any is fine)
 * RSplanFileName : the path to the ConformalFLASH treatment plan (DICOM)

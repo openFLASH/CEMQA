@@ -18,6 +18,7 @@ Example: `CEMQA('c:\data\example\CT_CEM\CT_0001.dcm', 'c:\data\example\RP.dcm', 
 ## Config
 The only config is the CT scanner. A default configuration is included (folder `resources\Scanner`).
 Please overwrite it with the configuration with the CT scanner used. 
+For details on the CT calibration format, see http://www.openmcsquare.org/documentation_CT_calibration.html
 
 ## Prerequisites on the CEM CT
 The CEM has to be scanned following these guidelines:
